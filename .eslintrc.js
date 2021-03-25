@@ -1,11 +1,11 @@
 module.exports = {
-  env: {
-    'browser': true,
-  },
-
   extends: [
     '@metamask/eslint-config',
   ],
+
+  parserOptions: {
+    ecmaVersion: 2018,
+  },
 
   plugins: [
     'json',
